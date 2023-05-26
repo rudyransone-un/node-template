@@ -1,0 +1,22 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./src/tests",
+    "build": "babel src/index.js -d dist",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.0",
+    "@babel/node": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
